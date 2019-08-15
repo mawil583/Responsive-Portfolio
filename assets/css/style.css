@@ -14,8 +14,14 @@ nav {
 main {
     padding-top: 20px;
     padding-bottom: 20px;
+    min-height: 616px;
+    height: 100%;
     clear: both;
     background-image: url(../../../../../Downloads/white-waves/white-waves.png)
+}
+p {
+    color: #666666;
+    font-size: 18px;
 }
 .container {
     width: 960px;
@@ -41,6 +47,10 @@ hr {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 25px;
 }
+textarea {
+    width: -webkit-fill-available;
+    border: 1px solid #dddddd;
+}
 ul {
     padding-top: 30px;
 }
@@ -52,8 +62,27 @@ li {
     list-style-type: none;
 
  }
+ input {
+    width: -webkit-fill-available;
+ }
+ .message {
+     height: 150px;
+ }
+ .submit {
+    
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    padding-right: 18px;
+    padding-left: 18px;
+    font-size: 18px;
+    background-color: #4aaaa5;
+ }
 .noborder {
     border-left: none;
+}
+form {
+    color: #666666;
 }
 a {
     width: 95px;
@@ -66,9 +95,11 @@ a {
 }
 footer {
     background-color: #666666;
-    width: 100%;
+    width: 99.3%;
     height: 35px;
     padding-top: 26px;
     text-align: center;
+    position: relative;
+    bottom: 0;
     border-top: 10px solid #4aaaa5;
-} 	
+}
