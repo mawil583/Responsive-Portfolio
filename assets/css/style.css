@@ -1,9 +1,12 @@
 img {
     width: 300px;
     height: auto;
+    float: left;
+    padding: 10px;
 }
 body {
     background-color: white;
+    margin: 0 auto;
 }
 nav {
     width: 960px;
@@ -14,19 +17,42 @@ nav {
 main {
     padding-top: 20px;
     padding-bottom: 20px;
-    min-height: 616px;
+    min-height: 693px;
     height: 100%;
     clear: both;
     background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/white-waves.png)
 }
+.suitcontainer {
+    width: 300px;
+
+}
+.suit {
+    width: 300px;
+    height: 75px;
+    max-height: 75px;
+    position: absolute;
+    background-color: #4aaaa5;
+    margin-left: 10px;
+    margin-top: 341px;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    line-height: 75px;  
+}
 p {
     color: #666666;
     font-size: 18px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 .container {
     width: 960px;
     max-width: 960px;
     height: auto;
+    overflow: auto;
     background-color: #ffffff;
     padding: 30px;
     margin: 0 auto;
@@ -35,6 +61,13 @@ p {
 }
 h1 {
     color: #4aaaa5;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 hr {
     border: 1px solid #dddddd;
@@ -95,7 +128,7 @@ a {
 }
 footer {
     background-color: #666666;
-    width: 99.3%;
+    width: 100.0%;
     height: 35px;
     padding-top: 26px;
     text-align: center;
