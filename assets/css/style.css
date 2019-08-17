@@ -161,7 +161,7 @@ li {
     
     padding-top: 12px;
     padding-bottom: 12px;
-    color: white;
+    color: #ffffff;
     padding-right: 18px;
     padding-left: 18px;
     font-size: 18px;
@@ -184,6 +184,7 @@ a {
 }
 footer {
     background-color: #666666;
+    color: #ffffff;
     width: 100.0%;
     height: 35px;
     padding-top: 26px;
