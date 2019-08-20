@@ -14,12 +14,13 @@
     <nav>
         <div class="navdiv">
             <div class="name">Michael Williams</div>
-            <ul>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li class="noborder"><a href="index.html">About</a></li>
-            </ul>
-            
+            <div class="links">
+                <div id="vertical">
+                    <a href="index.html" id="borderLeft">About</a>
+                    <a href="portfolio.html" id="border">Portfolio</a>
+                    <a href="contact.html" id="borderRight">Contact</a>
+                </div>
+            </div>
         </div>
     </nav>
     <main>
@@ -33,7 +34,7 @@
                 Email <input type="text">
             </form>
             <form>
-                Message 
+                Message
             </form>
             <textarea name="message" id="message" cols="30" rows="10"></textarea>
             <button class="submit">Submit</button>

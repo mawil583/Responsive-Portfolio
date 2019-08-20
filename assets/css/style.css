@@ -4,40 +4,49 @@ img {
     float: left;
     padding: 10px 10px 10px 0px;
 }
+
 body {
     background-color: white;
     margin: 0 auto;
 }
+
 nav {
     max-width: 960px;
     height: 82px;
     margin: 0 auto;
-    background-color:#ffffff;
+    background-color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .navdiv {
     height: 82px;
 }
-ul {
-    padding-top: 30px;
-}
-li {
-    float: right;
-    text-align: center;
 
-    border-left: 1px solid;
-    border-color: #777777;
-    list-style-type: none;
- }
- li:hover {
-     background-color: #777777;
-     }
- a:hover {
+a:hover {
+    background-color: #777777;
     color: #ffffff;
- }
+}
+
 .portfolio {
     padding-bottom: 100px;
 }
+
+#border {
+    border-left: 1px solid #777777;
+    border-right: 1px solid #777777;
+    padding: 0px 10px 0px 10px;
+}
+
+#borderLeft {
+    padding-left: 10px;
+    white-space: none;
+}
+
+#borderRight {
+    padding-right: 10px;
+    white-space: none;
+}
+
 main {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -47,12 +56,14 @@ main {
     clear: both;
     background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/white-waves.png)
 }
+
 .suitcontainer {
     width: 300px;
     position: relative;
     float: left;
     padding-right: 40px;
 }
+
 .suit {
     width: 300px;
     height: 75px;
@@ -66,11 +77,13 @@ main {
     text-align: center;
     line-height: 75px;
 }
+
 .skatecontainer {
     width: 300px;
     position: relative;
     float: left;
 }
+
 .skate {
     width: 300px;
     height: 75px;
@@ -96,12 +109,14 @@ p {
     line-height: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .project {
     position: relative;
     width: 300px;
     float: left;
     padding-right: 40px;
 }
+
 .title {
     width: 300px;
     height: 75px;
@@ -126,9 +141,9 @@ p {
     border: #dddddd solid 1px;
     box-sizing: border-box;
 }
+
 h1 {
     color: #4aaaa5;
-    
     font-size: 2em;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
@@ -137,30 +152,35 @@ h1 {
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 hr {
     border: 1px solid #dddddd;
 }
+
 .name {
     float: left;
-    background-color:#4aaaa5;
+    background-color: #4aaaa5;
     font-size: 24pt;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 25px;
-   width: 248px;  
+    width: 248px;
 }
+
 textarea {
     width: -webkit-fill-available;
     border: 1px solid #dddddd;
 }
 
- input {
+input {
     width: -webkit-fill-available;
- }
- .message {
-     height: 150px;
- }
- .submit {
+}
+
+.message {
+    height: 150px;
+}
+
+.submit {
     padding-top: 12px;
     padding-bottom: 12px;
     color: #ffffff;
@@ -168,22 +188,26 @@ textarea {
     padding-left: 18px;
     font-size: 18px;
     background-color: #4aaaa5;
- }
+}
+
 .noborder {
     border-left: none;
 }
+
 form {
     color: #666666;
 }
+
 a {
     width: 95px;
     text-decoration: unset;
-    display: block;
+    /* display: block; */
     color: #777777;
     margin-right: 1px;
     margin-left: 1px;
     font-size: 20px;
 }
+
 footer {
     background-color: #666666;
     color: #ffffff;
@@ -191,14 +215,20 @@ footer {
     height: 35px;
     padding-top: 26px;
     text-align: center;
-
     bottom: 0;
     border-top: 10px solid #4aaaa5;
 }
 
+.links {
+    text-align: right;
+    /* height: 82px; */
+    float: right;
+    padding-top: 31px;
+    padding-bottom: 31px;   
+}
+
 @media only screen and (max-width: 980px) {
     .container {
-     
         max-width: 768px;
         height: auto;
         overflow: auto;
@@ -209,10 +239,22 @@ footer {
         box-sizing: border-box;
     }
 
+    .links {
+        text-align: right;
+        /* height: 82px; */
+        float: right;
+        padding-top: 31px;
+        padding-bottom: 31px; 
+        padding-right: 31px;  
+    }
+
+    nav {
+        max-width: 768px;
+    }
 }
+
 @media only screen and (max-width: 767px) {
     .container {
-     
         max-width: 640px;
         height: auto;
         overflow: auto;
@@ -223,10 +265,19 @@ footer {
         box-sizing: border-box;
     }
 
+    .links {
+        text-align: right;
+        /* height: 82px; */
+        float: right;
+        padding-top: 31px;
+        padding-bottom: 31px; 
+        padding-right: 31px;  
+    }
+
 }
+
 @media only screen and (max-width: 639px) {
     .container {
-     
         max-width: 480px;
         height: auto;
         overflow: auto;
@@ -236,39 +287,49 @@ footer {
         border: #dddddd solid 1px;
         box-sizing: border-box;
     }
-    nav {
+
+    .links {
+        text-align: right;
+        /* height: 82px; */
+        float: right;
+        padding-top: 31px;
+        padding-bottom: 31px; 
+        padding-right: 31px;  
+    }
+    /* nav {
         min-width: 100%;
         height: 164px;
         margin: 0 auto;
-        background-color:#ffffff;
+        background-color: #ffffff;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     .navdiv {
         height: 164px;
-    }
+    } */
     .name {
-        float: left;
-        background-color:#4aaaa5;
-        font-size: 24pt;
-        color: white;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        padding: 25px;
-        width: 100%;  
+        width: 93%;
         text-align: center;
-        vertical-align: middle;
-        justify-content: center;
-        align-items: center;
+        padding-right: 10px;
     }
-    ul {
-        padding-top: 30px;
-    /* border: 1px solid red; */
-    /* vertical-align: middle; */
-    justify-content: center;
-    align-items: center;
-    /* display: flex; */
-    width: -1px;
-    
-    height: 80px;
+    .links {
+        width: 93%;
+        text-align: center;
+        padding: 20px;
     }
 
+    p {
+        clear: both;
+    }
+
+    img {
+        max-width: 294px;
+        /* width: 100%; */
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        /* margin-right: auto;
+        margin-left: auto; */
+        /* float: left; */
+        padding: 10px 10px 10px px;
+    }
 }
