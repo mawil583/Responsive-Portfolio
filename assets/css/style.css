@@ -295,6 +295,9 @@ footer {
         padding-top: 31px;
         padding-bottom: 31px; 
         padding-right: 31px;  
+        width: 93%;
+        text-align: center;
+        padding: 20px;
     }
     /* nav {
         min-width: 100%;
@@ -311,11 +314,7 @@ footer {
         text-align: center;
         padding-right: 10px;
     }
-    .links {
-        width: 93%;
-        text-align: center;
-        padding: 20px;
-    }
+   
 
     p {
         clear: both;
