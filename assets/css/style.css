@@ -81,7 +81,7 @@ main {
 .skatecontainer {
     width: 300px;
     position: relative;
-    float: left;
+    float: right;
 }
 
 .skate {
@@ -110,11 +110,18 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.project {
+.project2 {
     position: relative;
     width: 300px;
     float: left;
-    padding-right: 40px;
+    /* padding-right: 40px; */
+}
+
+.project {
+    position: relative;
+    width: 300px;
+    float: right;
+    /* padding-right: 40px; */
 }
 
 .title {
@@ -255,7 +262,7 @@ footer {
 
 @media only screen and (max-width: 767px) {
     .container {
-        max-width: 640px;
+        max-width: 362px;
         height: auto;
         overflow: auto;
         background-color: #ffffff;
@@ -263,6 +270,9 @@ footer {
         margin: 0 auto;
         border: #dddddd solid 1px;
         box-sizing: border-box;
+    }
+    .suitcontainer {
+        width: 100%;
     }
 
     .links {
@@ -321,7 +331,7 @@ footer {
     
       img {
         
-        width: 100%;
+        width: 300px%;
         height: auto;
         display: block;
         margin: 0 auto;
@@ -330,15 +340,16 @@ footer {
         /* float: left; */
         padding: 10px 10px 10px px;
       }
+
       .suitcontainer {
-        width: 100%;
+        width: 95%;
         position: relative;
         float: left;
         padding-right: 40px;
     }
     
     .suit {
-        width: 100%;
+        width: 300px;
         height: 75px;
         max-height: 75px;
         position: absolute;
@@ -352,13 +363,13 @@ footer {
     }
     
     .skatecontainer {
-        width: 100%;
+        width: 300px;
         position: relative;
         float: left;
     }
     
     .skate {
-        width: 100%;
+        width: 300px;
         height: 75px;
         max-height: 75px;
         position: absolute;
@@ -372,7 +383,7 @@ footer {
     }
     .project {
         position: relative;
-        width: 100%;
+        width: 300px;
         float: left;
         padding-right: 40px;
     }
