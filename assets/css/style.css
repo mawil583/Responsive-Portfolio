@@ -330,5 +330,51 @@ footer {
         /* float: left; */
         padding: 10px 10px 10px px;
       }
+      .suitcontainer {
+        width: 100%;
+        position: relative;
+        float: left;
+        padding-right: 40px;
+    }
+    
+    .suit {
+        width: 100%;
+        height: 75px;
+        max-height: 75px;
+        position: absolute;
+        background-color: #4aaaa5;
+        bottom: 25px;
+        left: 0px;
+        font-size: 23px;
+        color: white;
+        text-align: center;
+        line-height: 75px;
+    }
+    
+    .skatecontainer {
+        width: 100%;
+        position: relative;
+        float: left;
+    }
+    
+    .skate {
+        width: 100%;
+        height: 75px;
+        max-height: 75px;
+        position: absolute;
+        background-color: #4aaaa5;
+        bottom: 25px;
+        left: 0px;
+        font-size: 23px;
+        color: white;
+        text-align: center;
+        line-height: 75px;
+    }
+    .project {
+        position: relative;
+        width: 100%;
+        float: left;
+        padding-right: 40px;
+    }
     }
     
