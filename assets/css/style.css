@@ -5,6 +5,16 @@ img {
     padding: 10px 10px 10px 0px;
 }
 
+i {
+    float: right;
+    margin-left: 0.2em;
+}
+
+#plinks {
+    color: #777777;
+   
+}
+
 h3 {
     color: #4aaaa5;
     font-size: 2em;
