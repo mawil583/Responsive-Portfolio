@@ -5,6 +5,16 @@ img {
     padding: 10px 10px 10px 0px;
 }
 
+h3 {
+    color: #4aaaa5;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h4 {
+    color: #777777;
+    font-size: 1.2em;
+}
 body {
     background-color: white;
     margin: 0 auto;
